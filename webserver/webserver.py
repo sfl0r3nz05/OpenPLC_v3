@@ -2403,7 +2403,7 @@ if __name__ == '__main__':
                 configure_runtime()
                 monitor.parse_st(openplc_runtime.project_file)
             
-            app.run(debug=False, host='0.0.0.0', threaded=True, port=8080)
+            app.run(debug=False, host='0.0.0.0', threaded=True, port=8090)
         
         except Error as e:
             print("error connecting to the database" + str(e))

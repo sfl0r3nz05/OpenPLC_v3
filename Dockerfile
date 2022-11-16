@@ -5,5 +5,5 @@ WORKDIR /workdir
 RUN ./install.sh docker
 
 EXPOSE 502
-EXPOSE 8080
+EXPOSE 8090
 ENTRYPOINT ["./start_openplc.sh"]
